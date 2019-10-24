@@ -10,7 +10,7 @@ public class CalculatorTest {
 
     @BeforeClass
     public static void init() {
-        calculator = new Calculator();
+        calculator = new CalculatorImpl();
     }
 
     @Test
@@ -18,7 +18,7 @@ public class CalculatorTest {
         int a = 5;
         int b = 6;
 
-        Assert.assertEquals(a + b, calculator.sum(a, b));
+        Assert.assertEquals(a + b, calculator.add(a, b));
     }
 
     @Test
