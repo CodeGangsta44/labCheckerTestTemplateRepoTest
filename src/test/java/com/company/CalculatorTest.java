@@ -14,7 +14,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void sum() {
+    public void add() {
         int a = 5;
         int b = 6;
 
@@ -30,7 +30,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void sum() {
+    public void multi() {
         int a = 5;
         int b = 6;
 
@@ -38,7 +38,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void sum() {
+    public void div() {
         int a = 5;
         int b = 6;
 
