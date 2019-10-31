@@ -18,7 +18,7 @@ public class ServiceTest {
         int a = 5;
         int b = 6;
 
-        Assert.assertEquals(a + b, service.firstMethod(a, b));
+        Assert.assertEquals(a - b, service.firstMethod(a, b));
     }
 
     @Test
@@ -26,7 +26,7 @@ public class ServiceTest {
         int a = 5;
         int b = 6;
 
-        Assert.assertEquals(a - b, service.secondMethod(a, b));
+        Assert.assertEquals(a + b, service.secondMethod(a, b));
     }
 
     @Test
@@ -34,7 +34,7 @@ public class ServiceTest {
         int a = 5;
         int b = 6;
 
-        Assert.assertEquals(a * b, service.thirdMethod(a, b));
+        Assert.assertEquals(a / b, service.thirdMethod(a, b));
     }
 
     @Test
@@ -42,6 +42,6 @@ public class ServiceTest {
         int a = 5;
         int b = 6;
 
-        Assert.assertEquals(a / b, service.fourthMethod(a, b));
+        Assert.assertEquals(a * b, service.fourthMethod(a, b));
     }
 }
